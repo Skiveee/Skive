@@ -9,7 +9,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Container(child: Center(child: Text("Skive"),),),
     );
   }
 }
